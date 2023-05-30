@@ -47,7 +47,7 @@ public class App {
             
 
             for (Aluno aluno : lista) {
-                System.out.println("Lista atualizada: " + aluno.getNome() + " " + aluno.getMatricula());
+                System.out.println("Nome: " + aluno.getNome() + " | Matrícula: " + aluno.getMatricula());
         
             }
         }
@@ -59,7 +59,7 @@ public class App {
             if(alternativa2 == 1){
                 lista.sort(null);
                 for (Aluno aluno : lista) {
-                    System.out.println("Listagem por nome: " + aluno.getNome() + " " + aluno.getMatricula());
+                    System.out.println("Nome: " + aluno.getNome() + " | Matrícula: " + aluno.getMatricula());
                     
                 
                     
@@ -68,7 +68,7 @@ public class App {
             else if(alternativa2 == 2){
                 lista.sort(new ComparadorMatricula());
                 for (Aluno aluno : lista) {
-                    System.out.println("Listagem por matrícula: " + aluno.getNome() + " " + aluno.getMatricula());
+                    System.out.println("Nome: " + aluno.getNome() + " | Matrícula: " + aluno.getMatricula());
                     
 
                     
